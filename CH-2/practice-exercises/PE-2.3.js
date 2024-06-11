@@ -1,5 +1,9 @@
-a = 2;
-b = 4;
-c = undefined;
+let a = prompt("How long is the a side?");
+let b = prompt("How long is the b side?");
+let c = null;
 
-console.log(((a ** 2) + (b ** 2)) = (c ** 2))
+let op = ((a ** 2) + (b ** 2));
+
+let c = (op ** 1 / 2);
+
+console.log(c)
